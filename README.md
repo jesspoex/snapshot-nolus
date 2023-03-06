@@ -6,7 +6,7 @@ sudo apt update; sudo apt upgrade
 ```
 ## download latest snapshot
 ```
-curl https://snapshot.nolus.jesspoex.site//nolus-snapshot-20230305.tar.lz4|tar-Ilz4-xf--C $HOME/.nolus
+curl nolus-snapshot.nolus_latest.tar.lz4 $HOME/.nolus
 mv $HOME/.nolus/priv_validator_state.json.backup
 $/HOME.nolus/data/priv_validator_state.json
 ```
