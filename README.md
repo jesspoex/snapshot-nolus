@@ -2,7 +2,7 @@
 
 # stop the service and reset the data
 ```
-sudo apt update sudo apt upgrade
+sudo apt update && sudo apt upgrade
 ```
 ## download latest snapshot
 ```
